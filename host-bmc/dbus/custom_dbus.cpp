@@ -417,7 +417,6 @@ void CustomDBus::implementObjectEnableIface(const std::string& path, bool value)
                                            path.c_str()));
         enabledStatus.at(path)->enabled(value);
     }
-    enabledStatus.at(path)->enabled(value);
 }
 
 void CustomDBus::implementFabricAdapter(const std::string& path)
